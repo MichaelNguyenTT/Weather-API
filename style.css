@@ -11,12 +11,14 @@ body {
     background-color: lightgrey;
 }
 .select-section {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 10px;
 }
+
+
 
 .select-section h1 {
     font-weight: bold;

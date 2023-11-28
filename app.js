@@ -26,6 +26,7 @@ const weatherTable = document.getElementById('weatherInfo')
 window.onload = () => {
     displayWeather()
     loadCityDropdown()
+    
     citySelect.onchange = () => {
         weatherTable.innerHTML = ""
         displayWeather();
